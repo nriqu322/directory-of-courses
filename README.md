@@ -39,15 +39,9 @@ To get a local copy up and running follow these simple example steps.
 
 
 
-## Authors
+## Author
 
-👤 **Author1**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
+👤 **Luis Saavedra**
 
 - Github: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
@@ -66,8 +60,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Main Photo by [Austin Distel](https://unsplash.com/@austindistel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/online-courses?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Benefits: expert section Photo by [Campaign Creators](https://unsplash.com/@campaign_creators?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/experts?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Benefits: courses section Photo by [Jaredd Craig](https://unsplash.com/@jaredd_craig?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/books?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Benefits: Anywhere section Photo by [Tarn Nguyen](https://unsplash.com/@sqrlsm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/anywhere?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 - Behance
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.

@@ -115,6 +115,24 @@ main {
   font-size: 12px;
 }
 
+.all-courses {
+  background-color: #e17d65;
+}
+
+.experts {
+  background-color: #98a5a5;
+}
+
+.location {
+  background-color: #519bd7;
+}
+
+.benefits-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
 /* media queries */
 
 @media (max-width: 1023px) {
@@ -176,6 +194,5 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px 150px;
-    
   }
 }
