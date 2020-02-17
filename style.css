@@ -83,10 +83,32 @@ body {
   border: none;
 }
 
-.how-works {
+.btn-how-works {
   border: none;
   border-radius: 2px;
   font-size: 14px;
+  opacity: 0.85;
+}
+
+.how-it-works {
+  text-align: center;
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+.how-it-works-title {
+  color: #d35749;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.inner-works h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.inner-works p {
+  font-size: 12px;
 }
 
 /* media queries */
@@ -109,7 +131,7 @@ body {
 
   .how-works,
   .search-container {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .main-title,
@@ -124,6 +146,10 @@ body {
 
   .btn-search {
     max-width: 96px;
+  }
+
+  .how-it-works-title {
+    font-size: 18px;
   }
 }
 
@@ -140,5 +166,12 @@ body {
 
   .search-container {
     max-width: 830px;
+  }
+
+  .article-container-works {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 150px;
+    
   }
 }
