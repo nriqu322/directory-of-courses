@@ -40,6 +40,55 @@ body {
   background-color: #fff;
 }
 
+.hero {
+  text-align: center;
+}
+
+.main-search {
+  text-align: left;
+}
+
+.main-title {
+  font-size: 15px;
+  font-weight: 600;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.search-container {
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 7px;
+  font-size: 14px;
+}
+
+.main-img {
+  background-image: linear-gradient(rgba(104, 103, 112, 0.4), rgba(0, 0, 0, 0.9)), url(images/austin-distel-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  padding: 10% 0;
+}
+
+#keyword,
+.btn-search {
+  width: 90%;
+}
+
+.btn-search {
+  background-color: #d35749;
+  border: none;
+}
+
+.how-works {
+  border: none;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
 /* media queries */
 
 @media (max-width: 1023px) {
@@ -53,10 +102,43 @@ body {
     display: flex;
     justify-content: space-between;
   }
+
+  .main-title {
+    font-size: 23px;
+  }
+
+  .how-works,
+  .search-container {
+    font-size: 17px;
+  }
+
+  .main-title,
+  .search-container {
+    max-width: 65%;
+  }
+
+  .bar-container {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .btn-search {
+    max-width: 96px;
+  }
 }
 
 @media (max-width: 767px) {
-  .nav-left h3 {
+  .nav-left h4 {
     font-size: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-title {
+    font-size: 28px;
+  }
+
+  .search-container {
+    max-width: 830px;
   }
 }

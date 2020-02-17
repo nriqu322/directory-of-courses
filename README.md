@@ -65,9 +65,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Main Photo by [Austin Distel](https://unsplash.com/@austindistel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/online-courses?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Behance
 
 ## 📝 License
 
