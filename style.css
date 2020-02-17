@@ -1,0 +1,62 @@
+/* Styling Header */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1310px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-container {
+  background-color: #d35749;
+  height: 67px;
+  color: #fff;
+}
+
+.top-links {
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-left img {
+  width: 40px;
+  background-color: #fff;
+}
+
+/* media queries */
+
+@media (max-width: 1023px) {
+  .top-links-words {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-left h3 {
+    font-size: 20px;
+  }
+}
