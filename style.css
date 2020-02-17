@@ -17,6 +17,10 @@ body {
   color: #fff;
 }
 
+main {
+  margin-top: 67px;
+}
+
 .top-links {
   font-size: 14px;
   display: inline-flex;
