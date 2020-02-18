@@ -39,6 +39,10 @@ main {
   justify-content: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 .nav-left img {
   width: 40px;
   background-color: #fff;
@@ -159,6 +163,19 @@ main {
 .experts button {
   color: #98a5a5;
   border: none;
+}
+
+.footer-top {
+  background-color: #000;
+  color: #fff;
+}
+
+.footer-links {
+  font-size: 12px;
+}
+
+.footer-links a {
+  color: #fff;
 }
 
 /* media queries */
