@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
     integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-  <title>MOOCs Directory</title>
+  <title>MOOCs Search</title>
 </head>
 
 <body>
@@ -31,89 +31,65 @@
     </div>
   </header>
   <main>
-    <section class="hero">
-      <div class="main-img">
-        <h1 class="main-title text-white">MOOCs DIRECTORY... YOUR WINDOW TO ONLINE COURSES.</h1>
-        <div class="search-container py-3 py-md-4">
-          <label for="keyword" class="main-search mb-0">SEARCH BY KEYWORD:</label><br>
-          <div class="bar-container d-md-flex">
-            <input type="text" id="keyword" name="keyword"></input>
-            <button class="btn-search text-white mt-1 mt-md-0">SEARCH</button>
-          </div>
+    <div>
+      <h5>Filter by course, starting date, subject, certificate, type, level</h5>
+      <form action="#" class="form1">
+        <div>
+          <label>COURSE</label>
+          <input type="text"></input>
         </div>
-        <button class="btn-how-works mt-5 mt-md-4 p-1">How it works</button>
-      </div>
-    </section>
-    <section class="how-it-works my-3">
-      <div class="how-it-works-title pb-lg-4">MOOCs DIRECTORY WORKS IN FOUR SIMPLE STEPS</div>
-      <div class="article-container-works pt-2">
-        <article class="inner-works search-works py-2 px-lg-1">
-          <i class="fas fa-globe-americas fa-2x pb-3"></i>
-          <h5>1-SEARCH:</h5>
-          <p class="px-3 px-md-0">On this directory is easy to find any course acroos different platforms all over the
-            world.
-            Just type any
-            realted word to the course of your interest.</p>
-        </article>
-        <article class="inner-works find-workd py-2 px-lg-1">
-          <i class="fas fa-atlas fa-2x pb-3"></i>
-          <h5>2-FIND:</h5>
-          <p class="px-3 px-md-0">We have many subjects and type of courses. We are confident you will find a course
-            that suits
-            your
-            requirements, no matter where your location is.</p>
-        </article>
-        <article class="inner-works apply-works py-2 px-lg-1">
-          <i class="far fa-address-card fa-2x pb-3"></i>
-          <h5>3-APPLY:</h5>
-          <p class="px-3 px-md-0">Fill the form and start studying on the curriculum. Check the starting time and if
-            there is
-            any
-            requirements prior the course.</p>
-        </article>
-        <article class="inner-works study-works py-2 px-lg-1">
-          <i class="fas fa-home fa-2x pb-3"></i>
-          <h5>4-STUDY:</h5>
-          <p class="px-3 px-md-0">Now you can start studying from home and saving time for the things that matters.</p>
-        </article>
-      </div>
-    </section>
-    <section class="benefits">
-      <div class="all-courses-container disp-flex py-2 px-lg-5">
-        <div class="all-courses py-3 pl-md-4">
-          <h6>Over 9,000 courses and 200 subjects</h6>
-          <p class="px-3 px-md-0">Find a course using our filtered search engine</p>
-          <button class="p-1">Find a course</button>
+        <div>
+          <label>DATE</label>
+          <input type="date"></input>
         </div>
-        <div class="benefits-img-container pb-3 pb-md-0 pr-md-4">
-          <img class="benefits-img" src="images/courses-unsplash.jpg" alt="courses">
+        <div>
+          <label>SUBJECT</label>
+          <select name="subjects" id="subject">
+            <option></option>
+            <option value="marketing">Marketing</option>
+            <option value="software-development">Software Development</option>
+            <option value="cooking">Cooking</option>
+            <option value="statistics">Statistics</option>
+            <option value="analytics">Analytics</option>
+            <option value="health">Health</option>
+          </select>
         </div>
-      </div>
-      <div class="experts-container disp-flex py-2 px-lg-5">
-        <div class="experts py-3 pl-md-4">
-          <h6>Learn from experts in their fields</h6>
-          <p class="px-3 px-md-0">Just press the button and we will show you the profile of the experts who teach the
-            courses
-          </p>
-          <button class="p-1">Know the experts</button>
+        <div>
+          <label>CERTIFICATE</label>
+          <select name="certificate" id="certificate">
+            <option></option>
+            <option value="diploma">Diploma</option>
+            <option value="pro-certificate">Professional Certificate</option>
+            <option value="degree">Degree</option>
+            <option value="none">none</option>
+          </select>
         </div>
-        <div class="benefits-img-container pb-3 pb-md-0 pr-md-4">
-          <img class="benefits-img" src="images/experts-unsplash.jpg" alt="experts">
+        <div>
+          <label>OFFERED BY</label>
+          <select name="type" id="school">
+            <option></option>
+            <option value="michigan">University of Michigan</option>
+            <option value="princeton">Princeton University</option>
+            <option value="imb">IBM</option>
+            <option value="mit">MIT</option>
+            <option value="college-london">London College</option>
+          </select>
         </div>
-      </div>
-      <div class="location-container disp-flex py-2 px-lg-5">
-        <div class="location py-3 pl-md-4">
-          <h6>Anytime Anywhere Any way</h6>
-          <p class="px-3 px-md-0">Very convenient platforms that cut across any device including our mobile ready web
-            app and
-            our mobile app
-          </p>
+        <div>
+          <label>LEVEL</label>
+          <select name="level" id="level">
+            <option></option>
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+          </select>
         </div>
-        <div class="benefits-img-container pb-3 pb-md-0 pr-md-4">
-          <img class="benefits-img" class="" src="images/anywhere-unsplash.jpg" alt="anywhere">
+        <div>
+          <input type="submit" value="Search"></input>
+          <input type="reset" value="clear filter"></input>
         </div>
-      </div>
-    </section>
+      </form>
+    </div>
   </main>
   <footer>
     <div class="footer-top py-3 px-5">

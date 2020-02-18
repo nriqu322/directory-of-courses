@@ -1,4 +1,5 @@
-/* Styling Header */
+/* start main page styling */
+
 * {
   margin: 0;
   padding: 0;
@@ -379,3 +380,8 @@ a {
     justify-content: space-between;
   }
 }
+
+/* finish main page styling */
+
+/* start search page styling */
+
