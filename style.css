@@ -6,13 +6,13 @@
 }
 
 body {
-  max-width: 1310px;
+  max-width: 1210px;
   margin: 0 auto;
   font-family: 'Poppins', sans-serif;
 }
 
 .nav-container {
-  max-width: 1310px;
+  max-width: 1210px;
   margin: 0 auto;
   background-color: #d35749;
   height: 67px;
@@ -168,7 +168,7 @@ a {
 }
 
 .footer-top {
-  height: 150px;
+  height: 100%;
   background-color: #000;
   color: #fff;
 }
@@ -185,6 +185,39 @@ a {
 }
 
 .footer-links a {
+  color: #fff;
+}
+
+.footer-middle-container {
+  font-size: 11px;
+  text-align: center;
+}
+
+.footer-middle-container h6 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.subscribe input {
+  max-width: 170px;
+  background-color: #000;
+  color: rgb(39, 36, 36);
+  border: 0.3px solid rgb(39, 36, 36);
+}
+
+.footer-input-container {
+  justify-content: center;
+}
+
+.about {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.footer-input-container button {
+  background-color: rgb(39, 36, 36);
+  border: 1.5px solid rgb(39, 36, 36);
+  padding: 2px 7px;
   color: #fff;
 }
 
@@ -238,6 +271,16 @@ a {
     text-align: start;
   }
 
+  .benefits-img-container {
+    margin: auto 0;
+  }
+
+  .all-courses-container,
+  .experts-container,
+  .location-container {
+    height: 250px;
+  }
+
   .all-courses,
   .experts,
   .location {
@@ -247,6 +290,11 @@ a {
 
   .footer-links {
     justify-content: space-between;
+  }
+
+  .footer-middle-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
