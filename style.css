@@ -166,12 +166,20 @@ a {
 }
 
 .footer-top {
+  height: 150px;
   background-color: #000;
   color: #fff;
 }
 
 .footer-links {
-  font-size: 12px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 10px;
+}
+
+.footer-links li {
+  padding: 5px 10px;
+  align-self: center;
 }
 
 .footer-links a {
@@ -239,6 +247,10 @@ a {
 @media (max-width: 767px) {
   .nav-left h4 {
     font-size: 20px;
+  }
+
+  .footer-links-icon {
+    display: none;
   }
 }
 
