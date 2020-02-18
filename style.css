@@ -115,15 +115,15 @@ main {
   font-size: 12px;
 }
 
-.all-courses {
+.all-courses-container {
   background-color: #e17d65;
 }
 
-.experts {
+.experts-container {
   background-color: #98a5a5;
 }
 
-.location {
+.location-container {
   background-color: #519bd7;
 }
 
@@ -131,6 +131,34 @@ main {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+}
+
+.benefits {
+  color: #fff;
+  text-align: center;
+}
+
+.benefits p,
+.benefits button {
+  font-size: 12px;
+}
+
+.benefits button {
+  background-color: #fff;
+}
+
+.benefits h6 {
+  font-weight: 600;
+}
+
+.all-courses button {
+  color: #d35749;
+  border: none;
+}
+
+.experts button {
+  color: #98a5a5;
+  border: none;
 }
 
 /* media queries */
@@ -173,11 +201,33 @@ main {
   .how-it-works-title {
     font-size: 18px;
   }
+
+  .disp-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .benefits {
+    text-align: start;
+  }
+
+  .all-courses,
+  .experts,
+  .location {
+    margin: auto 0;
+    width: 50%;
+  }
 }
 
 @media (max-width: 767px) {
   .nav-left h4 {
     font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .btn-search {
+    background-color: #509bd7;
   }
 }
 
