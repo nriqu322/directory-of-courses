@@ -545,7 +545,10 @@ a {
 
   .result-article::after {
     position: absolute;
-    content: "";
+    content: "CLICK ME";
+    color: #eee;
+    font-size: 24px;
+    font-weight: 700;
     width: 100%;
     height: 100%;
     background-color: rgba(211, 87, 73, 0.2);
