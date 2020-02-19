@@ -381,12 +381,6 @@ a {
   }
 }
 
-@media (max-width: 425px) {
-  .result-img {
-    width: 120px;
-  }
-}
-
 /* finish main page styling */
 
 /* start search page styling */
@@ -466,11 +460,37 @@ a {
   height: 170px;
 }
 
+@media (max-width: 424px) {
+  .result-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .result-article h6 {
+    font-size: 16px;
+  }
+
+  .university {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+
+  .rating-stars {
+    font-size: 12px;
+  }
+
+  .level-price {
+    font-size: 14px;
+  }
+}
+
 @media (min-width: 768px) {
   .results-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px 10px;
+    max-width: 870px;
+    margin: 0 auto;
   }
 
   .result-article {
@@ -481,6 +501,14 @@ a {
     font-size: 30px;
     margin-bottom: 20px;
   }
+
+  .result-img {
+    width: 100%;
+    height: 220px;
+    background-position: center;
+    background-size: contain;
+  }
+
 }
 
 @media (min-width: 1024px) {
@@ -503,3 +531,5 @@ a {
     gap: 20px 0;
   }
 }
+
+
