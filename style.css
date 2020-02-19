@@ -618,4 +618,8 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     font-size: 16px;
   }
+
+  .maps-frame {
+    height: 500px;
+  }
 }
