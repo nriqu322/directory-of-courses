@@ -51,17 +51,17 @@
         <div class="search-container py-3 py-md-4">
           <label for="keyword" class="main-search mb-0">SEARCH BY KEYWORD:</label><br>
           <div class="bar-container d-md-flex">
-            <input type="text" id="keyword" name="keyword"></input>
+            <input type="text" id="keyword" name="keyword">
             <button class="btn-search text-white mt-1 mt-md-0">SEARCH</button>
           </div>
         </div>
-        <a href="#how-works-link">
-          <button class="btn-how-works mt-5 mt-md-4 p-1">How it works</button>
-        </a>
+        <button onclick="window.location.href='#how-works-link'" class="btn-how-works mt-5 mt-md-4 p-1">How it
+          works</button>
       </div>
     </section>
     <section class="how-it-works my-3">
-      <a name="how-works-link">
+      <h6 class="d-none">Title</h6>
+      <a id="how-works-link">
         <div class="how-it-works-title pb-lg-4">MOOCs DIRECTORY WORKS IN FOUR SIMPLE STEPS</div>
       </a>
       <div class="article-container-works pt-2">
@@ -95,9 +95,7 @@
         <div class="all-courses py-3 pl-md-4">
           <h6>Over 9,000 courses and 200 subjects</h6>
           <p class="px-3 px-md-0">Find a course using our filtered search engine</p>
-          <a href="search.html" class="text-decoration-none">
-            <button class="p-1">Find a course</button>
-          </a>
+          <button onclick="window.location.href='search.html'" class="p-1">Find a course</button>
         </div>
         <div class="benefits-img-container pb-3 pb-md-0 pr-md-4">
           <img class="benefits-img" src="images/courses-unsplash.jpg" alt="courses">
@@ -124,7 +122,7 @@
           </p>
         </div>
         <div class="benefits-img-container pb-3 pb-md-0 pr-md-4">
-          <img class="benefits-img" class="" src="images/anywhere-unsplash.jpg" alt="anywhere">
+          <img class="benefits-img" src="images/anywhere-unsplash.jpg" alt="anywhere">
         </div>
       </div>
     </section>
@@ -146,7 +144,7 @@
         <div class="footer-middle subscribe py-2">
           <h6>SUBSCRIBE</h6>
           <div class="footer-input-container d-flex">
-            <input type="search" placeholder=" your.name@example.com"></input>
+            <input type="search" placeholder=" your.name@example.com">
             <button>send</button>
           </div>
         </div>

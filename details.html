@@ -58,9 +58,8 @@
         <div class="details-item">RATING: <span>4.6/5</span></div>
       </div>
       <div class="text-center text-md-right mb-4 pr-md-3">
-        <a href="#form-two" class="text-decoration-none">
-          <button class="btn-apply btn-blue text-white py-1"><i class="fas fa-envelope pr-2"></i>APPLY</button>
-        </a>
+        <button onclick="window.location.href='#form-two'" class="btn-apply btn-blue text-white py-1"><i
+            class="fas fa-envelope pr-2"></i>APPLY</button>
       </div>
       <div class="uni-contact-info pr-md-3">
         <ul class="list-unstyled">
@@ -91,27 +90,27 @@
       <div class="mx-2 mx-md-5">
         <iframe class="maps-frame"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.407431943999!2d-122.1719130487639!3d37.427478739737694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2a678bea9d%3A0x29cdf01a44fc687f!2sUniversidad%20Stanford!5e0!3m2!1ses-419!2sgt!4v1582084676156!5m2!1ses-419!2sgt"
-          width="100%" height="400" frameborder="0" style="border: 0;" allowfullscreen="">
+          height="400" style="border: 0;" allowfullscreen="">
         </iframe>
       </div>
     </div>
-    <div class="form-two-container mx-3 mx-md-auto my-5">
-      <a name="form-two"></a>
+    <div class="form-two-container mx-auto my-5">
+      <a id="form-two"></a>
       <form action="#" class="form-two">
         <label for="fname">FIRST NAME:</label><br>
-        <input type="text" id="fname-formtwo" name="fname" placeholder="First Name"></input><br>
+        <input type="text" id="fname" name="fname" placeholder="First Name"><br>
         <label for="lname">LAST NAME:</label><br>
-        <input type="text" id="lname-formtwo" name="lname" placeholder="Last Name"></input><br>
+        <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
         <label for="email">EMAIL:</label><br>
-        <input type="email" id="email-formtwo" name="email" placeholder="Your email"></input><br>
+        <input type="email" id="email" name="email" placeholder="Your email"><br>
         <label for="phone">PHONE:</label><br>
-        <input type="tel" id="phone-formtwo" name="phone" placeholder="Phone Number"></input><br>
+        <input type="tel" id="phone" name="phone" placeholder="Phone Number"><br>
         <label for="username">USERNAME:*</label><br>
-        <input type="text" id="username-formtwo" name="username" placeholder="Username"></input><br>
+        <input type="text" id="username" name="username" placeholder="Username"><br>
         <label for="pwd">PASSWORD:</label><br>
-        <input type="text" id="pwd-formtwo" name="pwd" placeholder="Enter Password"></input><br>
+        <input type="text" id="pwd" name="pwd" placeholder="Enter Password"><br>
         <label for="confirmpassword">CONFIRM PASSWORD:</label><br>
-        <input type="text" id="confirmpassword-formtwo" name="confirmpassword" placeholder="Confirm Password"></input>
+        <input type="text" id="confirmpassword" name="confirmpassword" placeholder="Confirm Password">
       </form>
       <button class="btn-signup text-white mt-3 py-1 px-2">Sign Up</button>
       <a href="#" class="text-decoration-none text-success">Sign in</a>
@@ -134,7 +133,7 @@
         <div class="footer-middle subscribe py-2">
           <h6>SUBSCRIBE</h6>
           <div class="footer-input-container d-flex">
-            <input type="search" placeholder=" your.name@example.com"></input>
+            <input type="search" placeholder=" your.name@example.com">
             <button>send</button>
           </div>
         </div>

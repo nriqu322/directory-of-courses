@@ -638,6 +638,10 @@ a {
   color: #007bff;
 }
 
+.maps-frame {
+  width: 100%;
+}
+
 .form-two-container {
   max-width: 480px;
 }
