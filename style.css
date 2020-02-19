@@ -464,6 +464,7 @@ a {
 
 .result-article {
   border-bottom: 1px solid #e3e6e6;
+  position: relative;
 }
 
 .result-article h6 {
@@ -679,4 +680,23 @@ a {
   .maps-frame {
     height: 500px;
   }
+}
+
+/* fancy hover */
+
+.result-article::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(211, 87, 73, 0.2);
+  margin-top: 8px;
+  transition: transform 0.5s ease-in;
+  transform: scaleY(0);
+  transform-origin: top;
+}
+
+.result-article:hover::after {
+  transform: scaleY(1);
+  transform-origin: bottom;
 }
