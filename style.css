@@ -530,3 +530,30 @@ a {
     gap: 20px 0;
   }
 }
+
+/* finish search page */
+
+/* start details page */
+
+.more-details {
+  align-items: center;
+  background-color: #eee;
+}
+
+.board-container {
+  box-shadow: 0 -2px 8px 4px rgba(161, 153, 161, 0.8);
+}
+
+@media (max-width: 767px) {
+  .more-details h5 {
+    font-size: 13px;
+  }
+
+  .maps-container h5 {
+    font-size: 14px;
+  }
+
+  .description p {
+    font-size: 14px;
+}
+}
