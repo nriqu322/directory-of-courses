@@ -1,57 +1,62 @@
-# Project Name
+# MOOCs Directory (Capstone project)
 
-> One paragraph statement about the project.
+> This is an HTML and CSS project based on an online directory of schools to prove the mastering of concepts learned at microverse.
 
-![screenshot](./app_screenshot.png)
+## Main Page desktop screenshot
+![desktop screenshot](/images/main-desktop.png)
 
-Additional description about the project and its features.
+## Main Page Tablet screenshot
+![tablet screenshot](/resources/main-tablet.png)
 
-## Built With
+## Main Page Mobile screenshot
+![mobile screenshot](/resources/main-mobile.png)
 
-- Major languages,
-- frameworks,
-- technologies used
+## Search Page Desktop screenshot
+![desktop screenshot](/resources/search-desktop.png)
+
+## Search Page Tablet screenshot
+![tablet screenshot](/resources/search-tablet.png)
+
+## Search Page Mobile screenshot
+![mobile screenshot](/resources/search-mobile.png)
+
+## Details Page Desktop screenshot
+![desktop screenshot](/resources/details-desktop.png)
+
+## Details Page Tablet screenshot
+![tablet screenshot](/resources/details-tablet.png)
+
+## Details Page Mobile screenshot
+![mobile screenshot](/resources/details-mobile.png)
+
+# From the Microverse Course
+*Final project for the HTML and CSS course*
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/nriqu322/directory-of-courses/f73e676226d1ee4011cc58ceeab1d71b01d41b72/main.html)
 
+## Built With
 
-## Getting Started
+- HTML
+- CSS
+- Bootstrap
+- Use of flexbox, grid, transform property.
+- Box model
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Author
+## Author [![Hireable](https://img.shields.io/badge/HIREABLE-YES-yellowgreen&?style=for-the-badge)](https://linkedin.com/in/luis-saavedra-sanchez/)
 
 👤 **Luis Saavedra**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@nriqu322](https://github.com/nriqu322)
+- Twitter: [@nriqu322](https://twitter.com/nriqu322)
+- Linkedin: [Luis Saavedra](https://linkedin.com/in/luis-saavedra-sanchez/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check [here](https://github.com/nriqu322/directory-of-courses/issues) for issues.
 
 ## Show your support
 
@@ -59,6 +64,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Design taken from [Behance](https://www.behance.net/gallery/25563385/PatashuleKE), design idea by [Mathew Njuguna and others on Behance](https://www.behance.net/mathewnjuguna)
 - Main Photo by [Austin Distel](https://unsplash.com/@austindistel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/online-courses?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 - Benefits: expert section Photo by [Campaign Creators](https://unsplash.com/@campaign_creators?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/experts?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 - Benefits: courses section Photo by [Jaredd Craig](https://unsplash.com/@jaredd_craig?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/books?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
