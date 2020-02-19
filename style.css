@@ -264,6 +264,11 @@ a {
     justify-content: space-between;
   }
 
+  .main-img {
+    height: 480px;
+    padding-top: 85px;
+  }
+
   .main-title {
     font-size: 23px;
   }
@@ -359,6 +364,11 @@ a {
 }
 
 @media (min-width: 1024px) {
+  .main-img {
+    height: 530px;
+    padding-top: 110px;
+  }
+
   .main-title {
     font-size: 28px;
   }
