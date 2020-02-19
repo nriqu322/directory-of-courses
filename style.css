@@ -190,13 +190,6 @@ a {
   color: #fff;
 }
 
-/*.footer-links-icon {
-  border: 2px solid rgb(214, 208, 208);
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
-}*/
-
 .footer-middle-container {
   font-size: 11px;
   text-align: center;
@@ -233,6 +226,10 @@ a {
 .footer-red-text {
   color: #d35749;
   font-weight: 600;
+}
+
+.footer-red-text:hover {
+  cursor: pointer;
 }
 
 .footer-bottom {
@@ -348,7 +345,8 @@ a {
     font-size: 20px;
   }
 
-  .footer-links-icon {
+  .footer-links-icon,
+  .footer-middle-container {
     display: none;
   }
 }
