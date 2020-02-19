@@ -508,7 +508,6 @@ a {
     background-position: center;
     background-size: contain;
   }
-
 }
 
 @media (min-width: 1024px) {
@@ -531,5 +530,3 @@ a {
     gap: 20px 0;
   }
 }
-
-
