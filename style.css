@@ -183,7 +183,7 @@ a {
 }
 
 .footer-links li {
-  padding: 4px 5px;
+  padding: 6px 8px;
   align-self: center;
 }
 
@@ -231,6 +231,17 @@ a {
 
 .footer-red-text:hover {
   cursor: pointer;
+}
+
+.footer-links-icon {
+  position: absolute;
+  left: 48%;
+  border: 1px solid #e3e6e6;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  z-index: 2;
+  background-color: #000;
 }
 
 .footer-bottom {
@@ -381,6 +392,16 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px 150px;
+  }
+
+  .footer-links-icon {
+    height: 45px;
+    width: 45px;
+  }
+
+  .footer-links li {
+    padding: 10px 12px;
+    font-size: 11px;
   }
 }
 
