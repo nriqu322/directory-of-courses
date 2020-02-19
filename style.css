@@ -89,7 +89,8 @@ a {
   width: 90%;
 }
 
-.btn-search {
+.btn-search,
+.btn-signup {
   background-color: #d35749;
   border: none;
 }
@@ -586,6 +587,27 @@ a {
   color: #007bff;
 }
 
+.form-two-container {
+  max-width: 480px;
+}
+
+.form-two input {
+  width: 100%;
+  height: 45px;
+  padding: 0 5px;
+  background-color: #e3e6e6;
+  border: none;
+  border-bottom: 2px dashed #6c757c;
+  border-radius: 7px 7px 0 0;
+}
+
+.form-two label {
+  font-weight: 700;
+  color: #393f3f;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
 @media (max-width: 767px) {
   .more-details h5 {
     font-size: 13px;
@@ -596,6 +618,10 @@ a {
   }
 
   .description p {
+    font-size: 14px;
+  }
+
+  .form-two-container {
     font-size: 14px;
   }
 }

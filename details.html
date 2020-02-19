@@ -58,7 +58,9 @@
         <div class="details-item">RATING: <span>4.6/5</span></div>
       </div>
       <div class="text-center text-md-right mb-4 pr-md-3">
-        <button class="btn-apply btn-blue text-white py-1"><i class="fas fa-envelope pr-2"></i>APPLY</button>
+        <a href="#form-two" class="text-decoration-none"><button class="btn-apply btn-blue text-white py-1"><i
+              class="fas fa-envelope pr-2"></i>APPLY</button>
+        </a>
       </div>
       <div class="uni-contact-info pr-md-3">
         <ul class="list-unstyled">
@@ -93,16 +95,26 @@
         </iframe>
       </div>
     </div>
-    <div>
-      <form action="#" class="form1">
-        <div class="my-md-3 pr-lg-1">
-          <label>COURSE:</label><br>
-          <input type="text"></input>
-        </div>
-        <div class="my-md-3 pr-lg-1">
-          <label>DATE:</label><br>
-          <input type="date"></input>
-        </div>
+    <div class="form-two-container mx-3 mx-md-auto my-5">
+      <a name="form-two"></a>
+      <form action="#" class="form-two">
+        <label for="fname">FIRST NAME:</label><br>
+        <input type="text" id="fname-formtwo" name="fname" placeholder="First Name"></input><br>
+        <label for="lname">LAST NAME:</label><br>
+        <input type="text" id="lname-formtwo" name="lname" placeholder="Last Name"></input><br>
+        <label for="email">EMAIL:</label><br>
+        <input type="email" id="email-formtwo" name="email" placeholder="Your email"></input><br>
+        <label for="phone">PHONE:</label><br>
+        <input type="tel" id="phone-formtwo" name="phone" placeholder="Phone Number"></input><br>
+        <label for="username">USERNAME:*</label><br>
+        <input type="text" id="username-formtwo" name="username" placeholder="Username"></input><br>
+        <label for="pwd">PASSWORD:</label><br>
+        <input type="text" id="pwd-formtwo" name="pwd" placeholder="Enter Password"></input><br>
+        <label for="confirmpassword">CONFIRM PASSWORD:</label><br>
+        <input type="text" id="confirmpassword-formtwo" name="confirmpassword" placeholder="Confirm Password"></input>
+      </form>
+      <button class="btn-signup text-white mt-3 py-1 px-2">Sign Up</button>
+      <a href="#" class="text-decoration-none text-success">Sign in</a>
     </div>
   </main>
   <footer>
