@@ -49,16 +49,16 @@
       <h5 class="font-weight-bold pt-4">Filter by course, starting date, subject, certificate, type, level</h5>
       <form action="#" class="form1">
         <div class="my-md-3 pr-lg-1">
-          <label>COURSE:</label><br>
-          <input type="text"></input>
+          <label for="coursename">COURSE:</label><br>
+          <input type="text" id="coursename" name=courname></input>
         </div>
         <div class="my-md-3 pr-lg-1">
-          <label>DATE:</label><br>
-          <input type="date"></input>
+          <label for="startdate">DATE:</label><br>
+          <input type="date" id="startdate" name="startdate"></input>
         </div>
         <div class="my-md-3 pr-lg-1">
-          <label>SUBJECT:</label><br>
-          <select name="subjects" id="subject" class="bg-white">
+          <label for="subject">SUBJECT:</label><br>
+          <select id="subject" class="bg-white">
             <option></option>
             <option value="marketing">Marketing</option>
             <option value="software-development">Software Development</option>
@@ -69,8 +69,8 @@
           </select>
         </div>
         <div class="my-md-3 pr-lg-1">
-          <label>CERTIFICATE:</label><br>
-          <select name="certificate" id="certificate" class="bg-white">
+          <label for="certificate">CERTIFICATE:</label><br>
+          <select id="certificate" class="bg-white">
             <option></option>
             <option value="diploma">Diploma</option>
             <option value="pro-certificate">Professional Certificate</option>
@@ -79,8 +79,8 @@
           </select>
         </div>
         <div class="my-md-3 pr-lg-1">
-          <label>OFFERED:</label><br>
-          <select name="type" id="school" class="bg-white">
+          <label for="school">OFFERED:</label><br>
+          <select id="school" class="bg-white">
             <option></option>
             <option value="michigan">University of Michigan</option>
             <option value="princeton">Princeton University</option>
@@ -90,7 +90,7 @@
           </select>
         </div>
         <div class="my-md-3 pr-lg-1">
-          <label>LEVEL:</label><br>
+          <label for="level">LEVEL:</label><br>
           <select name="level" id="level" class="bg-white">
             <option></option>
             <option value="beginner">Beginner</option>
