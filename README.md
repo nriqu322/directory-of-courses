@@ -3,31 +3,31 @@
 > This is an HTML and CSS project based on an online directory of schools to prove the mastering of concepts learned at microverse.
 
 ## Main Page desktop screenshot
-![desktop screenshot](/images/main-desktop.png)
+![main desktop screenshot](/images/main-desktop.png)
 
 ## Main Page Tablet screenshot
-![tablet screenshot](/resources/main-tablet.png)
+![main tablet screenshot](/images/main-tablet.png)
 
 ## Main Page Mobile screenshot
-![mobile screenshot](/resources/main-mobile.png)
+![main mobile screenshot](/images/main-mobile.png)
 
 ## Search Page Desktop screenshot
-![desktop screenshot](/resources/search-desktop.png)
+![search desktop screenshot](/images/search-desktop.png)
 
 ## Search Page Tablet screenshot
-![tablet screenshot](/resources/search-tablet.png)
+![search tablet screenshot](/images/search-tablet.png)
 
 ## Search Page Mobile screenshot
-![mobile screenshot](/resources/search-mobile.png)
+![search mobile screenshot](/images/search-mobile.png)
 
 ## Details Page Desktop screenshot
-![desktop screenshot](/resources/details-desktop.png)
+![details desktop screenshot](/images/details-desktop.png)
 
 ## Details Page Tablet screenshot
-![tablet screenshot](/resources/details-tablet.png)
+![details tablet screenshot](/images/details-tablet.png)
 
 ## Details Page Mobile screenshot
-![mobile screenshot](/resources/details-mobile.png)
+![details mobile screenshot](/images/details-mobile.png)
 
 # From the Microverse Course
 *Final project for the HTML and CSS course*
