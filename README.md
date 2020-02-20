@@ -2,6 +2,9 @@
 
 > This is an HTML and CSS project based on an online directory of schools to prove the mastering of concepts learned at microverse.
 
+## Presentation Video
+[![Watch the video](/images/video-Screenshot.png)](https://www.loom.com/share/4e3235db61ec4d91bca678209703a8c5)
+
 ## Main Page desktop screenshot
 ![main desktop screenshot](/images/main-desktop.png)
 
