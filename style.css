@@ -20,6 +20,10 @@ body {
   color: #fff;
 }
 
+.nav-left a {
+  display: flex;
+}
+
 main {
   margin-top: 67px;
 }
@@ -209,6 +213,7 @@ a {
 }
 
 .footer-input-container {
+  display: flex;
   justify-content: center;
 }
 
@@ -252,6 +257,7 @@ a {
 }
 
 .social-media-container {
+  display: flex;
   height: 100%;
   justify-content: center;
 }
@@ -295,6 +301,7 @@ a {
   }
 
   .bar-container {
+    display: flex;
     width: 85%;
     margin: 0 auto;
   }
@@ -365,6 +372,13 @@ a {
   .footer-links-icon,
   .footer-middle-container {
     display: none;
+  }
+
+  .all-courses-container,
+  .experts-container,
+  .location-container {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 
@@ -463,6 +477,7 @@ a {
 }
 
 .result-article {
+  display: flex;
   border-bottom: 1px solid #e3e6e6;
   position: relative;
 }
@@ -479,6 +494,11 @@ a {
   font-weight: 600;
   max-width: 200px;
   margin: 0 auto 16px;
+}
+
+.level-price {
+  display: flex;
+  justify-content: space-between;
 }
 
 .results-title {
@@ -526,7 +546,12 @@ a {
   }
 
   .result-article {
+    flex-direction: column;
     border: 1px solid #e3e6e6;
+  }
+
+  .level-price {
+    justify-content: center;
   }
 
   .results-title {
@@ -590,6 +615,7 @@ a {
 /* start details page */
 
 .more-details {
+  display: flex;
   align-items: center;
   background-color: #eee;
 }
