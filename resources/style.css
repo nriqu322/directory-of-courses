@@ -79,7 +79,7 @@ a {
 }
 
 .main-img {
-  background-image: linear-gradient(rgba(104, 103, 112, 0.4), rgba(0, 0, 0, 0.9)), url(images/austin-distel-unsplash.jpg);
+  background-image: linear-gradient(rgba(104, 103, 112, 0.4), rgba(0, 0, 0, 0.9)), url(../images/austin-distel-unsplash.jpg);
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
