@@ -1,63 +1,65 @@
-# Project Name
+# MOOCs Directory (Capstone project)
 
-> One paragraph statement about the project.
+> This is an HTML and CSS project based on an online directory of schools to prove the mastering of concepts learned at microverse.
 
-![screenshot](./app_screenshot.png)
+## Presentation Video
+[![Watch the video](/images/video-Screenshot.png)](https://www.loom.com/share/4e3235db61ec4d91bca678209703a8c5)
 
-Additional description about the project and its features.
+## Main Page desktop screenshot
+![main desktop screenshot](/images/main-desktop.png)
 
-## Built With
+## Main Page Tablet screenshot
+![main tablet screenshot](/images/main-tablet.png)
 
-- Major languages,
-- frameworks,
-- technologies used
+## Main Page Mobile screenshot
+![main mobile screenshot](/images/main-mobile.png)
+
+## Search Page Desktop screenshot
+![search desktop screenshot](/images/search-desktop.png)
+
+## Search Page Tablet screenshot
+![search tablet screenshot](/images/search-tablet.png)
+
+## Search Page Mobile screenshot
+![search mobile screenshot](/images/search-mobile.png)
+
+## Details Page Desktop screenshot
+![details desktop screenshot](/images/details-desktop.png)
+
+## Details Page Tablet screenshot
+![details tablet screenshot](/images/details-tablet.png)
+
+## Details Page Mobile screenshot
+![details mobile screenshot](/images/details-mobile.png)
+
+# From the Microverse Course
+*Final project for the HTML and CSS course*
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/nriqu322/directory-of-courses/feature-a/main.html)
 
+## Built With
 
-## Getting Started
+- HTML
+- CSS
+- Bootstrap
+- Use of flexbox, grid, transform property.
+- Box model
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+## Author [![Hireable](https://img.shields.io/badge/HIREABLE-YES-yellowgreen&?style=for-the-badge)](https://linkedin.com/in/luis-saavedra-sanchez/)
 
+👤 **Luis Saavedra**
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@nriqu322](https://github.com/nriqu322)
+- Twitter: [@nriqu322](https://twitter.com/nriqu322)
+- Linkedin: [Luis Saavedra](https://linkedin.com/in/luis-saavedra-sanchez/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check [here](https://github.com/nriqu322/directory-of-courses/issues) for issues.
 
 ## Show your support
 
@@ -65,10 +67,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
+- Design taken from [Behance](https://www.behance.net/gallery/25563385/PatashuleKE), design idea by [Mathew Njuguna and others on Behance](https://www.behance.net/mathewnjuguna)
+- Main Photo by [Austin Distel](https://unsplash.com/@austindistel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/online-courses?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Benefits: expert section Photo by [Campaign Creators](https://unsplash.com/@campaign_creators?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/experts?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Benefits: courses section Photo by [Jaredd Craig](https://unsplash.com/@jaredd_craig?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/books?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Benefits: Anywhere section Photo by [Tarn Nguyen](https://unsplash.com/@sqrlsm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/anywhere?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./resources/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <title>MOOCs Directory</title>
+</head>
+
+<body>
+  <header>
+    <div class="nav-container fixed-top">
+      <div class="nav-left pt-2 mx-2 ml-md-5">
+        <a href="main.html" class="text-decoration-none text-white">
+          <i class="fas fa-user-graduate fa-2x"></i>
+          <h4 class="font-weight-bold pl-2">MOOCs Directory</h4>
+        </a>
+      </div>
+      <nav class="nav-right mr-md-5 pl-3 py-1">
+        <ul class="top-links h-100 list-unstyled mb-0">
+          <li class="mr-5 mr-md-3">
+            <a href="search.html" class="text-decoration-none text-white"><i class="fas fa-search pr-1"></i><span
+                class="top-links-words">COURSES</span></a>
+          </li>
+          <li class="mr-5 mr-md-3">
+            <a href="#" class="text-decoration-none text-white"><i class="far fa-user pr-1"></i><span
+                class="top-links-words">ABOUT</span></a>
+          </li>
+          <li class="mr-5 mr-md-3">
+            <a href="#" class="text-decoration-none text-white"><i class="fas fa-rss pr-1"></i><span
+                class="top-links-words">BLOG</span></a>
+          </li>
+          <li class="mr-md-1">
+            <a href="#" class="text-decoration-none text-white"><i class="fas fa-bars pr-1"></i><span
+                class="top-links-words">MORE</span></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="main-img">
+        <h1 class="main-title text-white">MOOCs DIRECTORY ... YOUR WINDOW TO ONLINE COURSES.</h1>
+        <div class="search-container py-3 py-md-4">
+          <label for="keyword" class="main-search mb-0">SEARCH BY KEYWORD:</label><br>
+          <div class="bar-container">
+            <input type="text" id="keyword" name="keyword">
+            <button onclick="window.location.href='search.html'"
+              class="btn-search text-white mt-1 mt-md-0">SEARCH</button>
+          </div>
+        </div>
+        <button onclick="window.location.href='#how-works-link';" class="btn-how-works mt-5 mt-md-4 p-1">How it
+          works</button>
+      </div>
+    </section>
+    <section class="how-it-works my-3">
+      <h6 class="d-none">Title</h6>
+      <a id="how-works-link">
+        <div class="how-it-works-title pb-lg-4">MOOCs DIRECTORY WORKS IN FOUR SIMPLE STEPS</div>
+      </a>
+      <div class="article-container-works pt-2">
+        <article class="inner-works search-works py-2 px-lg-1">
+          <i class="fas fa-globe-americas fa-2x pb-3"></i>
+          <h5>1-SEARCH:</h5>
+          <p class="px-3 px-md-0">On this directory is easy to find any course acroos different platforms all over the
+            world. Just type any related word to the course of your interest.</p>
+        </article>
+        <article class="inner-works find-workd py-2 px-lg-1">
+          <i class="fas fa-atlas fa-2x pb-3"></i>
+          <h5>2-FIND:</h5>
+          <p class="px-3 px-md-0">We have many subjects and type of courses. We are confident you will find a course
+            that suits your requirements, no matter where your location is.</p>
+        </article>
+        <article class="inner-works apply-works py-2 px-lg-1">
+          <i class="far fa-address-card fa-2x pb-3"></i>
+          <h5>3-APPLY:</h5>
+          <p class="px-3 px-md-0">Fill the form and start studying on the curriculum. Check the starting time and if
+            there is any requirements prior the course.</p>
+        </article>
+        <article class="inner-works study-works py-2 px-lg-1">
+          <i class="fas fa-home fa-2x pb-3"></i>
+          <h5>4-STUDY:</h5>
+          <p class="px-3 px-md-0">Now you can start studying from home and saving time for the things that matters.</p>
+        </article>
+      </div>
+    </section>
+    <section class="benefits">
+      <div class="all-courses-container disp-flex py-2 px-lg-5">
+        <div class="all-courses py-3 pl-md-4">
+          <h6>Over 9,000 courses and 200 subjects</h6>
+          <p class="px-3 px-md-0">Find a course using our filtered search engine</p>
+          <button onclick="window.location.href='search.html'" class="p-1">Find a course</button>
+        </div>
+        <div class="benefits-img-container pb-3 pb-md-0 pr-md-4">
+          <img class="benefits-img" src="images/courses-unsplash.jpg" alt="courses">
+        </div>
+      </div>
+      <div class="experts-container disp-flex py-2 px-lg-5">
+        <div class="experts py-3 pl-md-4">
+          <h6>Learn from experts in their fields</h6>
+          <p class="px-3 px-md-0">Just press the button and we will show you the profile of the experts who teach the
+            courses
+          </p>
+          <button class="p-1">Know the experts</button>
+        </div>
+        <div class="benefits-img-container pb-3 pb-md-0 pr-md-4">
+          <img class="benefits-img" src="images/experts-unsplash.jpg" alt="experts">
+        </div>
+      </div>
+      <div class="location-container disp-flex py-2 px-lg-5">
+        <div class="location py-3 pl-md-4">
+          <h6>Anytime Anywhere Any way</h6>
+          <p class="px-3 px-md-0">Very convenient platforms that cut across any device including our mobile ready web
+            app and
+            our mobile app
+          </p>
+        </div>
+        <div class="benefits-img-container pb-3 pb-md-0 pr-md-4">
+          <img class="benefits-img" src="images/anywhere-unsplash.jpg" alt="anywhere">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-top py-3 px-5">
+      <ul class="footer-links list-unstyled border-bottom border-top px-2 mx-auto">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">SEARCH</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">ADVERTISE</a></li>
+        <li class="footer-links-icon"><a href="#"><i class="fas fa-user-graduate fa-2x"></i></a></li>
+        <li><a href="#">FACEBOOK</a></li>
+        <li><a href="#">TWITTER</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">GOOGLE+</a></li>
+      </ul>
+      <div class="footer-middle-container">
+        <div class="footer-middle subscribe py-2">
+          <h6>SUBSCRIBE</h6>
+          <div class="footer-input-container">
+            <input type="search" placeholder=" your.name@example.com">
+            <button>send</button>
+          </div>
+        </div>
+        <div class="footer-middle contact py-2">
+          <h6>CONTACT</h6>
+          <span>Have a question or submission?</span><br>
+          <span class="footer-red-text">info@moocsdirectory.com</span>
+        </div>
+        <div class="footer-middle about py-2">
+          <h6>ABOUT</h6>
+          <p>MOOCs directory is a platform that assists everyone to find a suitable course by simply searching a related
+            topic keyword.<span class="footer-red-text"> Learn more</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <ul class="social-media-container list-unstyled mb-0 py-2">
+        <li class="mx-3 my-auto"><i class="fab fa-facebook-f text-secondary"></i></li>
+        <li class="mx-2 my-auto"><i class="fab fa-twitter text-secondary"></i></li>
+        <li class="mx-2 my-auto"><i class="fab fa-wordpress text-secondary"></i></li>
+        <li class="mx-2 my-auto"><i class="fab fa-google-plus-g text-secondary"></i></li>
+        <li class="mx-2 my-auto"><i class="fab fa-instagram text-secondary"></i></li>
+      </ul>
+      <div class="copyright py-2 my-auto pb-md-0 pr-md-2">
+        <span>© MOOCs DIRECTORY 2020. ALL RIGHTS RESERVED. POWERED BY</span>
+        <span>LUIS SAAVEDRA. LOVE AND AWESOMENESS.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

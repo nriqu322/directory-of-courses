@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./resources/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <title>MOOCs Search</title>
+</head>
+
+<body>
+  <header>
+    <div class="nav-container fixed-top">
+      <div class="nav-left pt-2 mx-2 ml-md-5">
+        <a href="main.html" class="text-decoration-none text-white">
+          <i class="fas fa-user-graduate fa-2x"></i>
+          <h4 class="font-weight-bold pl-2">MOOCs Directory</h4>
+        </a>
+      </div>
+      <nav class="nav-right mr-md-5 pl-3 py-1">
+        <ul class="top-links h-100 list-unstyled mb-0">
+          <li class="mr-5 mr-md-3">
+            <a href="search.html" class="text-decoration-none text-white"><i class="fas fa-search pr-1"></i><span
+                class="top-links-words">COURSES</span></a>
+          </li>
+          <li class="mr-5 mr-md-3">
+            <a href="#" class="text-decoration-none text-white"><i class="far fa-user pr-1"></i><span
+                class="top-links-words">ABOUT</span></a>
+          </li>
+          <li class="mr-5 mr-md-3">
+            <a href="#" class="text-decoration-none text-white"><i class="fas fa-rss pr-1"></i><span
+                class="top-links-words">BLOG</span></a>
+          </li>
+          <li class="mr-md-1">
+            <a href="#" class="text-decoration-none text-white"><i class="fas fa-bars pr-1"></i><span
+                class="top-links-words">MORE</span></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="filter-container px-4 px-md-5 pt-lg-5">
+      <h5 class="font-weight-bold pt-4">Filter by course, starting date, subject, certificate, type, level</h5>
+      <form action="#" class="form1">
+        <div class="my-md-3 pr-lg-1">
+          <label for="coursename">COURSE:</label><br>
+          <input type="text" id="coursename">
+        </div>
+        <div class="my-md-3 pr-lg-1">
+          <label for="startdate">DATE:</label><br>
+          <input type="text" id="startdate" placeholder="mm/dd/yyyy">
+        </div>
+        <div class="my-md-3 pr-lg-1">
+          <label for="subject">SUBJECT:</label><br>
+          <select id="subject" class="bg-white">
+            <option value="select">-- select --</option>
+            <option value="marketing">Marketing</option>
+            <option value="software-development">Software Development</option>
+            <option value="cooking">Cooking</option>
+            <option value="statistics">Statistics</option>
+            <option value="analytics">Analytics</option>
+            <option value="health">Health</option>
+          </select>
+        </div>
+        <div class="my-md-3 pr-lg-1">
+          <label for="certificate">CERTIFICATE:</label><br>
+          <select id="certificate" class="bg-white">
+            <option value="select">-- select --</option>
+            <option value="diploma">Diploma</option>
+            <option value="pro-certificate">Professional Certificate</option>
+            <option value="degree">Degree</option>
+            <option value="none">none</option>
+          </select>
+        </div>
+        <div class="my-md-3 pr-lg-1">
+          <label for="school">OFFERED:</label><br>
+          <select id="school" class="bg-white">
+            <option value="select">-- select --</option>
+            <option value="michigan">University of Michigan</option>
+            <option value="princeton">Princeton University</option>
+            <option value="imb">IBM</option>
+            <option value="mit">MIT</option>
+            <option value="college-london">London College</option>
+          </select>
+        </div>
+        <div class="my-md-3 pr-lg-1">
+          <label for="level">LEVEL:</label><br>
+          <select id="level" class="bg-white">
+            <option value="select">-- select --</option>
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+          </select>
+        </div>
+        <div class="buttons-search-page py-4 py-lg-5">
+          <button onclick="window.location.href='details.html';" class="btn-blue py-2 px-3 mr-lg-1">Search</button>
+          <button type="reset" class="btn-orange py-2 px-3"><i class="far fa-edit"></i>clear filter</button>
+        </div>
+      </form>
+    </div>
+    <div class="text-center font-weight-bold text-secondary mt-5">
+      <div class="results-title">Search Results Found 7 course(s)</div>
+    </div>
+    <div class="results-container mb-4">
+      <a href="details.html" class="text-decoration-none text-dark">
+        <article class="result-article text-md-center justify-content-center py-3 pt-md-0 ml-1 mx-md-3">
+          <div class="my-auto my-md-0">
+            <img alt="ibm-course" class="result-img" src="images/analytics.jpg">
+          </div>
+          <div class="ml-2 mr-2 align-middle my-auto">
+            <h6 class="mt-md-2">Python Basics</h6>
+            <p class="university pl-2">Stanford University</p>
+            <div class="rating-stars">
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star-half-alt text-warning"></i>
+              <span>4.6</span>
+              <span class="text-secondary">(12,724)</span>
+            </div>
+            <div class="level-price pt-2">
+              <div class="level pr-md-3"><i class="fas fa-battery-quarter pr-2"></i>Beginner</div>
+              <div>Free</div>
+            </div>
+          </div>
+        </article>
+      </a>
+      <a href="details.html" class="text-decoration-none text-dark">
+        <article class="result-article text-md-center justify-content-center py-3 pt-md-0 ml-1 mx-md-3">
+          <div class="my-auto my-md-0">
+            <img alt="ibm-course" class="result-img" src="images/algorithms.jpg">
+          </div>
+          <div class="ml-2 mr-2 align-middle my-auto">
+            <h6 class="mt-md-2">Algorithms, Part I</h6>
+            <p class="university pl-2">Wharton University</p>
+            <div class="rating-stars">
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star-half-alt text-warning"></i>
+              <span>4.2</span>
+              <span class="text-secondary">(3,421)</span>
+            </div>
+            <div class="level-price pt-2">
+              <div class="level pr-md-3"><i class="fas fa-battery-half pr-2"></i>Intermediate</div>
+              <div>$11.99</div>
+            </div>
+          </div>
+        </article>
+      </a>
+      <a href="details.html" class="text-decoration-none text-dark">
+        <article class="result-article text-md-center justify-content-center py-3 pt-md-0 ml-1 mx-md-3">
+          <div class="my-auto my-md-0">
+            <img alt="ibm-course" class="result-img" src="images/mikita-yo-unsplash.jpg">
+          </div>
+          <div class="ml-2 mr-2 align-middle my-auto">
+            <h6 class="mt-md-2">IBM Data Science</h6>
+            <p class="university pl-2">IBM</p>
+            <div class="rating-stars">
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star-half-alt text-warning"></i>
+              <i class="far fa-star text-warning"></i>
+              <span>3.6</span>
+              <span class="text-secondary">(9,451)</span>
+            </div>
+            <div class="level-price pt-2">
+              <div class="level pr-md-3"><i class="fas fa-battery-quarter pr-2"></i>Beginner</div>
+              <div>$29.99</div>
+            </div>
+          </div>
+        </article>
+      </a>
+      <a href="details.html" class="text-decoration-none text-dark">
+        <article class="result-article text-md-center justify-content-center py-3 pt-md-0 ml-1 mx-md-3">
+          <div class="my-auto my-md-0">
+            <img alt="imb-course" class="result-img" src="images/social-media-mkt.jpg">
+          </div>
+          <div class="ml-2 mr-2 align-middle my-auto">
+            <h6 class="mt-md-2">Social Media</h6>
+            <p class="university pl-2">Princeton University</p>
+            <div class="rating-stars">
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star-half-alt text-warning"></i>
+              <span>4.3</span>
+              <span class="text-secondary">(14,973)</span>
+            </div>
+            <div class="level-price pt-2">
+              <div class="level pr-md-3"><i class="fas fa-battery-quarter pr-2"></i>Beginner</div>
+              <div>Free</div>
+            </div>
+          </div>
+        </article>
+      </a>
+      <a href="details.html" class="text-decoration-none text-dark">
+        <article class="result-article text-md-center justify-content-center py-3 pt-md-0 ml-1 mx-md-3">
+          <div class="my-auto my-md-0">
+            <img alt="imb-course" class="result-img" src="images/public-health.jpg">
+          </div>
+          <div class="ml-2 mr-2 align-middle my-auto">
+            <h6 class="mt-md-2">Public Health</h6>
+            <p class="university pl-2">Health Institute</p>
+            <div class="rating-stars">
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="far fa-star text-warning"></i>
+              <span>4.0</span>
+              <span class="text-secondary">(1,865)</span>
+            </div>
+            <div class="level-price pt-2">
+              <div class="level pr-md-3"><i class="fas fa-battery-half pr-2"></i>Intermediate</div>
+              <div>$499</div>
+            </div>
+          </div>
+        </article>
+      </a>
+      <a href="details.html" class="text-decoration-none text-dark">
+        <article class="result-article text-md-center justify-content-center py-3 pt-md-0 ml-1 mx-md-3">
+          <div class="my-auto my-md-0">
+            <img alt="imb-course" class="result-img" src="images/cooking.jpg">
+          </div>
+          <div class="ml-2 mr-2 align-middle my-auto">
+            <h6 class="mt-md-2">Peruvian cuisine</h6>
+            <p class="university pl-2">Cocina Lab SAC</p>
+            <div class="rating-stars">
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <span>4.9</span>
+              <span class="text-secondary">(6,540)</span>
+            </div>
+            <div class="level-price pt-2">
+              <div class="level pr-md-3"><i class="fas fa-battery-quarter pr-2"></i>Beginner</div>
+              <div>$10.9</div>
+            </div>
+          </div>
+        </article>
+      </a>
+      <a href="details.html" class="text-decoration-none text-dark">
+        <article class="result-article text-md-center justify-content-center py-3 pt-md-0 ml-1 mx-md-3">
+          <div class="my-auto my-md-0">
+            <img alt="imb-course" class="result-img" src="images/machine-learning.jpg">
+          </div>
+          <div class="ml-2 mr-2 align-middle my-auto">
+            <h6 class="mt-md-2">Machine Learning</h6>
+            <p class="university pl-2">MIT</p>
+            <div class="rating-stars">
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star-half-alt text-warning"></i>
+              <i class="far fa-star text-warning"></i>
+              <span>3.8</span>
+              <span class="text-secondary">(5,542)</span>
+            </div>
+            <div class="level-price pt-2">
+              <div class="level pr-md-3"><i class="fas fa-battery-full pr-2"></i>Advanced</div>
+              <div>$39.99</div>
+            </div>
+          </div>
+        </article>
+      </a>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-top py-3 px-5">
+      <ul class="footer-links list-unstyled border-bottom border-top px-2 mx-auto">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">SEARCH</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">ADVERTISE</a></li>
+        <li class="footer-links-icon"><a href="#"><i class="fas fa-user-graduate fa-2x"></i></a></li>
+        <li><a href="#">FACEBOOK</a></li>
+        <li><a href="#">TWITTER</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">GOOGLE+</a></li>
+      </ul>
+      <div class="footer-middle-container">
+        <div class="footer-middle subscribe py-2">
+          <h6>SUBSCRIBE</h6>
+          <div class="footer-input-container">
+            <input type="search" placeholder=" your.name@example.com">
+            <button>send</button>
+          </div>
+        </div>
+        <div class="footer-middle contact py-2">
+          <h6>CONTACT</h6>
+          <span>Have a question or submission?</span><br>
+          <span class="footer-red-text">info@moocsdirectory.com</span>
+        </div>
+        <div class="footer-middle about py-2">
+          <h6>ABOUT</h6>
+          <p>MOOCs directory is a platform that assists everyone to find a suitable course by simply searching a related
+            topic keyword.<span class="footer-red-text"> Learn more</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <ul class="social-media-container list-unstyled mb-0 py-2">
+        <li class="mx-3 my-auto"><i class="fab fa-facebook-f text-secondary"></i></li>
+        <li class="mx-2 my-auto"><i class="fab fa-twitter text-secondary"></i></li>
+        <li class="mx-2 my-auto"><i class="fab fa-wordpress text-secondary"></i></li>
+        <li class="mx-2 my-auto"><i class="fab fa-google-plus-g text-secondary"></i></li>
+        <li class="mx-2 my-auto"><i class="fab fa-instagram text-secondary"></i></li>
+      </ul>
+      <div class="copyright py-2 my-auto pb-md-0 pr-md-2">
+        <span>© MOOCs DIRECTORY 2020. ALL RIGHTS RESERVED. POWERED BY</span>
+        <span>LUIS SAAVEDRA. LOVE AND AWESOMENESS.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="//cdn.jsdelivr.net/webshim/1.14.5/polyfiller.js"></script>
+</body>
+
+</html>
