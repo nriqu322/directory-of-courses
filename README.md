@@ -37,7 +37,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/nriqu322/directory-of-courses/feature-a/main.html)
+[Live Demo Link](https://raw.githack.com/nriqu322/directory-of-courses/master/main.html)
 
 ## Built With
 
