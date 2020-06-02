@@ -8,26 +8,8 @@
 ## Main Page desktop screenshot
 ![main desktop screenshot](/images/main-desktop.png)
 
-## Main Page Tablet screenshot
-![main tablet screenshot](/images/main-tablet.png)
-
-## Main Page Mobile screenshot
-![main mobile screenshot](/images/main-mobile.png)
-
-## Search Page Desktop screenshot
-![search desktop screenshot](/images/search-desktop.png)
-
 ## Search Page Tablet screenshot
 ![search tablet screenshot](/images/search-tablet.png)
-
-## Search Page Mobile screenshot
-![search mobile screenshot](/images/search-mobile.png)
-
-## Details Page Desktop screenshot
-![details desktop screenshot](/images/details-desktop.png)
-
-## Details Page Tablet screenshot
-![details tablet screenshot](/images/details-tablet.png)
 
 ## Details Page Mobile screenshot
 ![details mobile screenshot](/images/details-mobile.png)
